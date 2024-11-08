@@ -1,15 +1,6 @@
 /*----------------
     DEBUG
 ------------------*/
-.debug .container {
-    border: 2px dashed blueviolet;
-}
-
-.debug .row .col {
-    border: 2px dashed lightcoral;
-    background-color: rgba(240, 128, 128, 0.2);
-    min-height: 200px;
-}
 
 /*----------------
     RESET
@@ -52,15 +43,32 @@
     gap: 30px;
 }
 
+.gap-40{
+    gap: 40px;
+}
+
 .col {
     flex-grow: 1;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
 /*----------------
     TYPOGRAPHY
 ------------------*/
 body {
-    font-family: "Roboto", serif;
+    font-family: "OpenSans", serif;
+}
+
+header a{
+    font-size: smaller;
 }
 
 /*----------------
@@ -72,14 +80,17 @@ body {
     border: none;
     padding: 6px 12px;
     cursor: pointer;
-}
 
-.btn-large {
-    padding: 10px 20px;
-    font-size: 16px;
 }
 
 .btn-primary {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color:#0061fe ;
+    color: #fff;
+}
+
+.btn-p {
     background-color: lightcoral;
     color: #fff;
 }
@@ -87,6 +98,33 @@ body {
 /*----------------
     HEADER
 ------------------*/
+header{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    position: sticky;
+    z-index: 10;
+
+}
+
+header .col-left{
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+header .col-right{
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+header .col-right> nav{
+    align-items: center;
+}
+
+
+
 
 /*----------------
     MAIN
