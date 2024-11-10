@@ -237,12 +237,12 @@ header .col-right> nav{
     padding-right: 30px;
 }
 
-.details-plane h5{
+#plane .details-plane h5{
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
-.details-plane h6{
+#plane .details-plane h6{
     color: lightgray;
 }
 
@@ -270,6 +270,37 @@ header .col-right> nav{
     color: lightgray;
 }
 
+/*----------------
+    SECTION ENTERPRISE
+------------------*/
+#enterprise{
+    margin-top:50px;
+}
+
+#enterprise .details-plane{
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom:40px;
+}
+
+#enterprice .info-enterprise{
+    width: 70%;
+}
+
+#enterprice .button-enterprise{
+    width: 30%;
+}
+
+#enterprise .info-enterprise> h5{
+    margin-top:20px;
+    padding-bottom:50px;
+    font-size: 12px;
+}
+
+#enterprise .info-enterprise> h6{
+   font-weight:400;
+}
 
 
 
