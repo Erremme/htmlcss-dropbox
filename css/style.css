@@ -393,3 +393,36 @@ padding-bottom: 150px;
 /*----------------
     FOOTER
 ------------------*/
+footer{
+    background-color:#000 ;
+    color: #fff;
+    padding-top:100px;
+    padding-bottom:40px;
+}
+
+.list-footer{
+    padding-bottom: 82px;
+}
+
+footer .all-list{
+    width: calc( 100% / 5);
+
+}
+
+.all-list h4{
+    padding-bottom: 20px;
+}
+
+.all-list li{
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
+.select-language hr{
+    width:10% ;
+    margin-bottom: 40px;
+}
+
+.language{
+    font-size: 14px;
+}
