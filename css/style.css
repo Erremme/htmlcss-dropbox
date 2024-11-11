@@ -1,9 +1,7 @@
 /*----------------
     DEBUG
 ------------------*/
-.debug main{
-    padding-bottom: 150px;
-}
+
 /*----------------
     RESET
 ------------------*/
@@ -163,7 +161,9 @@ header .col-right> nav{
 /*----------------
     MAIN
 ------------------*/
-
+main{
+padding-bottom: 150px;
+}
 
 /*----------------
     SECTION HERO
@@ -353,6 +353,10 @@ header .col-right> nav{
 /*----------------
     INFO-PRODUCT
 ------------------*/
+#info-product{
+    padding-bottom: 150px;
+}
+
 #info-product .column{
     width: calc( 100% /3);
 }
@@ -370,6 +374,17 @@ header .col-right> nav{
     line-height: 40px;
     padding-bottom: 35px;
 }
+
+/*----------------
+    SECTION-CUSTOMERS
+------------------*/
+.customers h2 {
+    font-size: 35px;
+    padding-bottom: 70px;
+}
+
+
+
 
 
 
