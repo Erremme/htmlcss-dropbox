@@ -61,14 +61,21 @@
     gap: 40px;
 }
 
+.gap-50{
+    gap: 50px;
+}
+
 .col {
     flex-grow: 1;
 }
 
-
-
 ul{
     list-style: none;
+}
+
+.details-plane li{
+    display: flex;
+    gap: 5px;
 }
 /*----------------
     TYPOGRAPHY
@@ -115,6 +122,11 @@ header a{
     color: #fff;
 }
 
+.btn-white{
+    background-color: #fff;
+    border: 1px solid black;
+}
+
 /*----------------
     HEADER
 ------------------*/
@@ -123,7 +135,9 @@ header{
     align-items: center;
     padding: 20px 20px;
     position: sticky;
-    z-index: 10;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
 
 }
 
@@ -222,13 +236,16 @@ header .col-right> nav{
 
 .column{
     width: calc( 100% / 3);
-    border: 1px solid black;
+    border-left: 1px solid #d0cfd4;
+    border-right:1px solid #d0cfd4;
+    border-bottom:1px solid #d0cfd4; ;
 }
 
 .title-plane{
     text-align: center;
     padding:12px 0 ;
-    border: 1px solid black;
+    border-top: 1px solid #d0cfd4;
+    border-bottom: 1px solid #d0cfd4;;
 }
 
 .details-plane{
@@ -274,11 +291,16 @@ header .col-right> nav{
     SECTION ENTERPRISE
 ------------------*/
 #enterprise{
-    margin-top:50px;
+    margin:50px 0;
+}
+
+#enterprise .title-plane{
+    border-right: 1px solid #d0cfd4;
+    border-left: 1px solid #d0cfd4;
 }
 
 #enterprise .details-plane{
-    border: 1px solid black;
+    border: 1px solid #d0cfd4;;
     justify-content: space-between;
     align-items: flex-start;
     padding-bottom:40px;
@@ -295,12 +317,39 @@ header .col-right> nav{
 #enterprise .info-enterprise> h5{
     margin-top:20px;
     padding-bottom:50px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
-#enterprise .info-enterprise> h6{
-   font-weight:400;
+
+
+/*----------------------
+    SECTION CONTACT-US
+-----------------------*/
+
+#contact-us{
+   padding-top: 180px;
 }
+
+#contact-us .col-left{
+    width: 55%;
+}
+
+
+#contact-us .col-right{
+    width: 40%;
+    padding-top: 50px;
+    text-align: left;
+}
+
+#contact-us .col-right> p{
+    padding-top:15px;
+    padding-bottom:30px;
+}
+
+#contact-us .container{
+    justify-content: space-between;
+}
+
 
 
 
